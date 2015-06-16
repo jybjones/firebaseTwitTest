@@ -1,0 +1,19 @@
+{
+  "name": "firebasetwittest",
+  "version": "1.0.0",
+  "description": "Testing firebase &amp; twitter",
+  "main": "index.jade",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jybjones/firebaseTwitTest.git"
+  },
+  "author": "Jennifer Jones",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jybjones/firebaseTwitTest/issues"
+  },
+  "homepage": "https://github.com/jybjones/firebaseTwitTest#readme"
+}
