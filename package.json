@@ -2,7 +2,7 @@
   "name": "firebasetwittest",
   "version": "1.0.0",
   "description": "Testing firebase &amp; twitter",
-  "main": "index.jade",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
