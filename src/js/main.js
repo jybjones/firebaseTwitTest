@@ -42,8 +42,14 @@ $('#tweet-submit').on('click', function () {
 // //STEP 6: Add messages to DOM in realtime
 messagesRef.orderByChild("published").on('child_added', function (snapshot) {
   var message = snapshot.val();
-    $('#msg-box').prepend($("<div class='msg-text'>").text(message.username).append('<br/>').append($('<span/>').text(message.message)));
+  console.log(snapshot)
+    $('#msg-box').prepend($("<div class='msg-text'>")
+      .text(message.username).append('<br/>')
+      .append($('<span/>')
+      .text(message.message)));
 });
+
+
 
 
 /////this is the FIREBASE DOC ONE///////
