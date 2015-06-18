@@ -4,12 +4,25 @@ html(lang="en-US")
     meta(charset="utf-8")
     meta(http-equiv="X-UA-Compatible", content="IE=edge")
     meta(name="viewport", content="width=device-width, initial-scale=1")
-    title
-    link(rel="stylesheet" href="lib/build.css")
+    title Twitter Firebase Chat App
+    //- link(rel="stylesheet" href="lib/build.css")
+    link(href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700' rel='stylesheet' type='text/css')
     link(rel="stylesheet" href="css/main.css")
 
   body
     .container
+      div#stream
+          h1 Firebase Chat App Test using Twitter
+          input#msgInput(type="text", placeholder="Your Message...")
+          button#tweet-submit(type="submit") submit
+
+      div#here
+          h1 Who's here?!
+            a#login(href='#')
+              img(src='twitter.png')
+              | Sign in With Twitter
+
+
 
   script(src="lib/build.js")
   script(src="js/main.js")
